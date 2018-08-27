@@ -1,0 +1,14 @@
+https://gist.github.com/rajabishek/7102fe2b7b60b4833d72
+https://gist.github.com/Abhey/47e09377a527acfc2480dbc5515df872
+https://github.com/RedAndBlueEraser/c-multithreaded-client-server/blob/master/server.c
+https://github.com/nikhilroxtomar/Multiple-Client-Server-Program-in-C-using-fork/blob/master/tcpServer.c
+https://github.com/nikhilroxtomar/Multiple-Client-Server-Program-in-C-using-fork/blob/master/tcpClient.c
+https://github.com/hzxie/Multiplex-Socket
+https://github.com/hzxie/Multiplex-Socket/blob/master/server.c
+https://www.ibm.com/support/knowledgecenter/en/SSB23S_1.1.0.14/gtpc1/unixsock.html
+
+// kill "Address already in use" error message
+if (setsockopt(listener,SOL_SOCKET,SO_REUSEADDR,&tr,sizeof(int)) == -1) {
+    perror("setsockopt");
+    exit(1);
+}
