@@ -1,0 +1,14 @@
+User provide image in the platen/document processor
+In the Copy -> additional featurere will be added ‘Scan to Rush ID’
+Scan to Rush ID:
+Activate/De-activate option will be present. Once activate is chosen, the machine will scan the original from the platen/document processor.
+After scanning, facial recognition will be used to examine the original image scanned. Panel will provide a preview of the image with the highlights of all the faces detected by the facial recognition software. The user will choose one amongst all the highlighted faces in the image (if many faces are detected) to be the main image to be processed for the rush ID.
+After the user choose a face, print customization will appear
+	User has the ability to customize media type, media type size and choose up to three different ID sizes. The customization settings set by the user can be stored in ‘Save as ID package’ option, so that the user can reuse the format. 
+	If user doesn’t want to customize, there will be a default values set for media type, media type size, and ID size in case user just wants to print right away. For media type and media size, the default values would be the first media type and media type size available in the machine. For ID size, default would be 4 – 2x2 image, 8 – 1x1 image.
+	When the user selects the first ID size, for example 2x2 image, the machine will automatically compute and suggest the number of 2x2 image that can fit in the paper (computations will based on the paper size and the ID size, will start on Upper Left to Right). Preview option of the image will also be provided. The user can always use the suggested number of ID images for that size or to input the number of ID images manually. The user can optionally input the second ID size or directly proceed to printing. The second ID size number of images computation will be same as the first ID size, but the computation will start on the unused area of the paper size. Same scenario will happen for the optional third ID size.
+
+Once start is triggered by the user, the machine can now start printing the RUSHED ID IMAGE.
+
+
+
